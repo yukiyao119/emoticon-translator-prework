@@ -10,7 +10,7 @@ def load_library(path)
       # ☜(⌒▽⌒)☞ => angel
     },
     'get_emoticon' => {
-      
+      # O:) => 
     }
   }
 end
