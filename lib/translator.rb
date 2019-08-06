@@ -7,9 +7,11 @@ def load_library(path)
   table = YAML.load_file(path)
   library = {
     'get_meaning' => {
-      
+      # Japanese emoticons
     },
-    'get_emoticon' => {}
+    'get_emoticon' => {
+      
+    }
   }
 end
 
