@@ -3,17 +3,17 @@ require "yaml"
 require 'pry'
 
 def load_library(path)
-  # code goes here
   table = YAML.load_file(path)
   library = {
-    'get_meaning' => {
-      # ☜(⌒▽⌒)☞ => angel
-    },
-    'get_emoticon' => {
-      # O:) => ☜(⌒▽⌒)☞
-    }
+    'get_meaning' => {},
+    'get_emoticon' => {}
   }
+  table.each do |meaning, arr|   
+    # arr[0] is english emoj, arr[1] is japan emoj
+    library['get_meaning'][arr[1]]
+  library arr[1] => meaning arr[0] => arr[1]
   binding.pry
+  end 
 end
 
 # {"angel"=>["O:)", "☜(⌒▽⌒)☞"],
