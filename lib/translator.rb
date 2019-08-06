@@ -7,7 +7,7 @@ def load_library(path)
   table = YAML.load_file(path)
   library = {
     'get_meaning' => {
-      # ☜(⌒▽⌒)☞ =>   
+      # ☜(⌒▽⌒)☞ =>  ''
     },
     'get_emoticon' => {
       
