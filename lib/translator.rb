@@ -6,8 +6,12 @@ def load_library(path)
   # code goes here
   table = YAML.load_file(path)
   library = {
-    'get_meaning' => { # ☜(⌒▽⌒)☞ => table key}, 
-    'get_emoticon' => { # O:) => ☜(⌒▽⌒)☞} 
+    'get_meaning' => { 
+      # ☜(⌒▽⌒)☞ => table key
+      }, 
+    'get_emoticon' => { 
+      # O:) => ☜(⌒▽⌒)☞
+      }
   }
   table.each do |meaning, arr|   
     # arr[0] is english emoj, arr[1] is japan emoj
