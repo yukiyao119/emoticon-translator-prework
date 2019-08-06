@@ -14,7 +14,6 @@ def load_library(path)
   }
   table.each do |meaning, arr|   
     # arr[0] is english emoj, arr[1] is japan emoj
-  }
   binding.pry
 end
 
