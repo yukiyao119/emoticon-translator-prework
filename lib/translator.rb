@@ -6,7 +6,9 @@ def load_library(path)
   # code goes here
   table = YAML.load_file(path)
   library = {
-    'get_meaning' => {},
+    'get_meaning' => {
+      
+    },
     'get_emoticon' => {}
   }
 end
